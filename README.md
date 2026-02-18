@@ -1,7 +1,8 @@
 # E-Commerce-Customer-Retention-Churn-Analysis
 
 📌 Project Overview
-This project focuses on identifying key drivers of customer churn for an e-commerce platform with 50,000 customers. 
+  
+  This project focuses on identifying key drivers of customer churn for an e-commerce platform with 50,000 customers. 
 By integrating MySQL for data engineering and Power BI for AI-driven visualization, 
 I developed a predictive tool that identifies high-risk segments and provides actionable business recommendations.
 
