@@ -138,7 +138,6 @@ The project includes an interactive dashboard that enables stakeholders to:
 ## 🧰 Tech Stack
 
 * SQL
-* Python (Pandas, NumPy, Scikit-learn)
 * Power BI
 * Excel
 
