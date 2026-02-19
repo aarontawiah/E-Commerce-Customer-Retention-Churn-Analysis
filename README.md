@@ -120,6 +120,20 @@ The project includes an interactive dashboard that enables stakeholders to:
 * Track retention performance
 
 ---
+## 📊 Dashboard Screenshots
+
+### 1️⃣ Executive Summary
+![Executive Summary](images/dashboard/executive_summary.png)
+
+### 2️⃣ Churn Analysis
+![Churn Analysis](images/dashboard/churn_analysis.png)
+
+### 3️⃣ Customer Segmentation
+![Customer Segments](images/dashboard/customer_segments.png)
+
+> The dashboard allows stakeholders to explore churn rates, segment high-risk customers, and monitor retention KPIs in an interactive, visual format.
+
+---
 
 ## 🧰 Tech Stack
 
