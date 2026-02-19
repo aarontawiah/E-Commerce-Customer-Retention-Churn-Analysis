@@ -1,131 +1,146 @@
-# E-Commerce-Customer-Retention-Churn-Analysis
+# 📊 E-Commerce Customer Retention & Churn Analysis
 
-*📌 Project Overview*
-  
- This project focuses on identifying key drivers of customer churn for an e-commerce platform with 50,000 customers.
- 
- By integrating MySQL for data engineering and Power BI for AI-driven visualization, 
+## 📌 Project Overview
 
-  I developed a predictive tool that identifies high-risk segments and provides actionable business recommendations.
+Customer retention is one of the most important drivers of profitability in e-commerce. Acquiring new customers is significantly more expensive than retaining existing ones, making churn analysis critical for sustainable business growth.
 
+This project analyzes customer behaviour to identify churn patterns, uncover key drivers of customer attrition, and provide actionable business recommendations to improve retention.
 
+---
 
+## 🎯 Business Problem
 
-*🎯 Business Problem*
+The company is experiencing customer churn but lacks visibility into:
 
-Customer churn represents a significant revenue loss.
+* Which customers are most likely to churn
+* What factors drive churn
+* When churn risk is highest
+* Which customer segments require retention strategies
 
-The goal of this analysis was to:
+Without this insight, retention efforts are reactive instead of proactive.
 
-Measure churn rate
-  
-  Identify behavioral and demographic drivers
-  
-  Quantify revenue lost to churn
-  
-  Segment high-risk customers
-  
-  Provide actionable retention strategies
-  
+---
 
+## 🎯 Project Objectives
 
+* Measure overall churn rate
+* Identify key churn drivers
+* Segment customers by churn risk
+* Discover behavioural patterns linked to churn
+* Build a predictive churn model
+* Provide retention strategy recommendations
 
-*🛠 Tools & Technologies*  
-  
-  MySQL (Data querying and transformation)
-  
-  Power BI (Data modeling & visualization)
-  
-  DAX (Calculated measures and segmentation logic)
-  
+---
 
+## 📂 Dataset Description
 
+The dataset contains customer-level e-commerce behavioural data including:
 
-*📈 Key Metrics*
-  
-  Total Customers: 50,000
-  
-  Churn Rate: 28.9%
-  
-  Revenue Lost to Churn: $20.6M
-  
-  Average Lifetime Value: 1441
-  
-  Average Order Value: 119.19
-  
+* Customer demographics
+* Purchase behaviour
+* Tenure
+* Complai nts and support interactions
+* Payment methods
+* Order frequency
+* Customer satisfaction indicators
 
+Each record represents a unique customer with a churn indicator.
 
+---
 
+## 🛠️ Methodology
 
+### 1️⃣ Data Cleaning & Preparation
 
+* Handled missing values
+* Corrected data types
+* Feature engineering
+* Exploratory validation
 
-*🔍 Key Insights*
-  
-  Customers with low login frequency show significantly higher churn probability.
-  
-  Low mobile app usage strongly correlates with churn.
-  
-  Certain countries demonstrate elevated churn rates.
-  
-  Customer service engagement patterns indicate friction before churn.
-  
-  Revenue at risk from churned customers exceeds $20M
-  
+### 2️⃣ Exploratory Data Analysis (EDA)
 
+* Churn distribution analysis
+* Behaviour comparison (churn vs retained)
+* Trend analysis by tenure, spending, complaints
+* Segment analysis
 
+### 3️⃣ Feature Analysis
 
-*🧠 Predictive Analysis*
+* Identified strongest churn predictors
+* Customer lifecycle analysis
+* Behavioural risk signals
 
-  Using Power BI Key Influencers visual:
-  
-  Low login frequency increases churn likelihood.
-  
-  Low mobile engagement is a strong churn predictor.
-  
-  Specific behavioral segments exhibit churn rates above 50%.
-  
+### 4️⃣ Predictive Modeling
 
+* Built classification model to predict churn probability
+* Evaluated model performance
+* Identified high-risk customers
 
+---
 
-*💡 Strategic Recommendations*
-  
-  Implement engagement campaigns targeting low-activity users.
-  
-  Improve mobile app onboarding experience.
-  
-  Develop loyalty incentives for mid-tenure customers.
-  
-  Enhance customer support efficiency to reduce friction.
-  
-  Prioritize retention of high lifetime value customers.
+## 📊 Key Insights
 
+* New customers show significantly higher churn risk
+* Customers with complaints churn at a much higher rate
+* Low engagement strongly correlates with churn
+* Certain payment methods show elevated churn behaviour
+* High-value customers represent critical retention priority
 
+---
 
+## 📈 Business Impact
 
+This analysis enables the business to:
 
-*📊 Dashboard Preview.*
-  
-  Executive Overview.
-  
-  Behavioral Deep Dive.
-  
-  Predictive Insights.
+* Detect churn early
+* Prioritize high-risk high-value customers
+* Improve onboarding strategy
+* Optimize customer experience
+* Reduce revenue loss
 
+---
 
+## 💡 Recommendations
 
+* Implement early onboarding retention program
+* Create complaint recovery workflow
+* Launch targeted campaigns for high-risk customers
+* Introduce loyalty incentives for high-value customers
+* Monitor churn risk dashboard continuously
 
+---
 
-*🚀 Project Outcome*
-  
-This project demonstrates:
-  
-  End-to-end data analysis workflow.  
-  
-  Business-focused KPI development.
-  
-  Revenue impact quantification.
-  
-  Risk segmentation and predictive insight.
+## 📊 Dashboard (Power BI)
 
+The project includes an interactive dashboard that enables stakeholders to:
 
-Executive-level dashboard storytelling
+* Monitor churn KPIs
+* Explore customer segments
+* Identify high-risk groups
+* Track retention performance
+
+---
+
+## 🧰 Tech Stack
+
+* SQL
+* Python (Pandas, NumPy, Scikit-learn)
+* Power BI
+* Excel
+
+---
+
+## 🚀 Future Improvements
+
+* Deploy churn prediction app
+* Add real-time scoring pipeline
+* Perform cohort retention analysis
+* Build customer lifetime value (CLV) model
+* Run retention strategy simulation
+
+---
+
+## 👤 Author
+
+Aaron Tawiah
+Data Analyst Portfolio Project
