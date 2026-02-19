@@ -39,7 +39,7 @@ The dataset contains customer-level e-commerce behavioural data including:
 * Customer demographics
 * Purchase behaviour
 * Tenure
-* Complai nts and support interactions
+* Complaints and support interactions
 * Payment methods
 * Order frequency
 * Customer satisfaction indicators
